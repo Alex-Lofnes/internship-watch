@@ -1,0 +1,864 @@
+# Organisations the watcher checks.
+#
+# Fields
+#   name       Shown in emails and on the dashboard
+#   url        Homepage or best-known page. If 'careers' is missing, the script
+#              looks for a careers/jobs link on this page and remembers it.
+#   careers    (optional) Exact pages to scan. Set this whenever the Coverage tab
+#              shows an organisation as 'error' or 'no careers page found'.
+#   watch_text (optional) Also alert when the wording about applications or
+#              deadlines on these pages changes, e.g. "applications are now open".
+#   ats        (optional) {type: greenhouse|lever|workable|smartrecruiters|pinpoint, id: ...}
+#              Usually detected automatically from links on the careers page.
+#   render     (optional) Load the page in a headless browser (for JavaScript-heavy sites).
+#   skip       (optional) Reason for not checking this organisation.
+#
+# Generated from Summer_2027_Policy_Internships.xlsx. Add or remove entries freely.
+organisations:
+- name: Government Social Research (GSR)
+  tier: '1'
+  category: Civil service
+  url: https://www.gov.uk/government/publications/how-to-apply-for-a-government-social-research-summer-student-placement
+  careers:
+  - https://www.gov.uk/government/publications/how-to-apply-for-a-government-social-research-summer-student-placement
+  - https://analysisfunction.civilservice.gov.uk/vacancies/
+  watch_text: true
+- name: Civil Service Fast Stream
+  tier: '1'
+  category: Civil service
+  url: https://www.civil-service-careers.gov.uk/fast-stream/fs-summer-internship-programme
+  careers:
+  - https://www.civil-service-careers.gov.uk/fast-stream/fs-summer-internship-programme
+  watch_text: true
+- name: Bank of England
+  tier: '1'
+  category: Government-adjacent
+  url: https://www.bankofengland.co.uk/careers/early-careers
+  watch_text: true
+- name: Financial Conduct Authority
+  tier: '2'
+  category: Regulator
+  url: https://www.fca.org.uk/careers
+- name: Civil Service Jobs
+  tier: '1'
+  category: Civil service
+  url: https://www.civilservicejobs.service.gov.uk
+  skip: Civil Service Jobs needs a logged-in search. Use its own email alerts instead.
+- name: Institute for Fiscal Studies (IFS)
+  tier: '1'
+  category: Think tank
+  url: https://ifs.org.uk/summer-internships
+  careers:
+  - https://ifs.org.uk/summer-internships
+  - https://ifs.org.uk/jobs
+  watch_text: true
+- name: Education Policy Institute (EPI)
+  tier: '1'
+  category: Think tank
+  url: https://epi.org.uk
+- name: IPPR
+  tier: '2'
+  category: Think tank (centre-left)
+  url: https://www.ippr.org/jobs
+  careers:
+  - https://www.ippr.org/jobs
+- name: Onward
+  tier: '3'
+  category: Think tank (centre-right)
+  url: https://ukonward.com/internship/
+  careers:
+  - https://ukonward.com/internship/
+  watch_text: true
+- name: MPs' offices (via W4MP or direct)
+  tier: '3'
+  category: Parliament
+  url: https://w4mp.org
+- name: House of Commons
+  tier: '3'
+  category: Parliament
+  url: https://www.parliament.uk/about/careers/
+  careers:
+  - https://www.parliament.uk/about/careers/
+- name: Patchwork Foundation
+  tier: '3'
+  category: Politics / public affairs
+  url: https://patchworkfoundation.org.uk/our-work/internships/
+  careers:
+  - https://patchworkfoundation.org.uk/our-work/internships/
+  watch_text: true
+- name: Greater London Authority
+  tier: '3'
+  category: Local government
+  url: https://www.london.gov.uk
+- name: Flint Global
+  tier: '2'
+  category: Public affairs
+  url: https://flint-global.com/internship/
+  careers:
+  - https://flint-global.com/internship/
+  - https://flint-global.com/join-flint/
+  watch_text: true
+- name: Hanbury Strategy
+  tier: '2'
+  category: Public affairs
+  url: https://www.hanburystrategy.com
+- name: Public First
+  tier: '2'
+  category: Public affairs / research
+  url: https://www.publicfirst.co.uk
+- name: More in Common UK
+  tier: '3'
+  category: Polling / research
+  url: https://www.moreincommon.org.uk
+- name: Ipsos UK
+  tier: '3'
+  category: Polling / research
+  url: https://www.ipsos.com/en-uk
+- name: Institute for Government
+  tier: Later
+  category: Think tank
+  url: https://www.instituteforgovernment.org.uk/about-us/careers/internship-programme
+  careers:
+  - https://www.instituteforgovernment.org.uk/about-us/careers/internship-programme
+  watch_text: true
+- name: Chatham House
+  tier: '2'
+  category: Think tank (international)
+  url: https://www.chathamhouse.org/academy/internships
+  new_in_tracker: true
+  careers:
+  - https://www.chathamhouse.org/academy/internships
+  watch_text: true
+- name: RSA
+  tier: '2'
+  category: Think tank
+  url: https://www.thersa.org
+  new_in_tracker: true
+- name: Learning and Work Institute
+  tier: '2'
+  category: Think tank / research
+  url: https://learningandwork.org.uk
+  new_in_tracker: true
+- name: Energy and Climate Intelligence Unit (ECIU)
+  tier: '2'
+  category: Think tank (climate)
+  url: https://eciu.net
+  new_in_tracker: true
+- name: NIESR
+  tier: '2'
+  category: Think tank (economics)
+  url: https://niesr.ac.uk
+  new_in_tracker: true
+- name: Centre for Progressive Policy
+  tier: '2'
+  category: Think tank (centre-left)
+  url: https://www.progressive-policy.net
+  new_in_tracker: true
+- name: Labour Together
+  tier: '2'
+  category: Think tank (Labour-aligned)
+  url: https://www.labourtogether.uk
+  new_in_tracker: true
+- name: Fabian Society
+  tier: '2'
+  category: Think tank (Labour-affiliated)
+  url: https://fabians.org.uk
+  new_in_tracker: true
+- name: Demos
+  tier: '2'
+  category: Think tank (cross-party)
+  url: https://demos.co.uk
+  new_in_tracker: true
+- name: Social Market Foundation
+  tier: '2'
+  category: Think tank (cross-party)
+  url: https://www.smf.co.uk
+  new_in_tracker: true
+- name: New Local
+  tier: '2'
+  category: Think tank (local government)
+  url: https://www.newlocal.org.uk
+  new_in_tracker: true
+- name: LGIU (Local Government Information Unit)
+  tier: '3'
+  category: Think tank (local government)
+  url: https://lgiu.org
+  new_in_tracker: true
+- name: Joseph Rowntree Foundation
+  tier: '2'
+  category: Foundation / think tank
+  url: https://www.jrf.org.uk
+  new_in_tracker: true
+- name: Centre for Cities
+  tier: '2'
+  category: Think tank
+  url: https://www.centreforcities.org
+  new_in_tracker: true
+- name: Centre for London
+  tier: '2'
+  category: Think tank
+  url: https://centreforlondon.org
+  new_in_tracker: true
+- name: Institute for Employment Studies
+  tier: '3'
+  category: Research institute
+  url: https://www.employment-studies.co.uk
+  new_in_tracker: true
+- name: Pensions Policy Institute
+  tier: '3'
+  category: Think tank
+  url: https://www.pensionspolicyinstitute.org.uk
+  new_in_tracker: true
+- name: Women's Budget Group
+  tier: '3'
+  category: Think tank
+  url: https://wbg.org.uk
+  new_in_tracker: true
+- name: Runnymede Trust
+  tier: '3'
+  category: Think tank (race equality)
+  url: https://www.runnymedetrust.org
+  new_in_tracker: true
+- name: British Future
+  tier: '3'
+  category: Think tank
+  url: https://www.britishfuture.org
+  new_in_tracker: true
+- name: Sutton Trust
+  tier: '2'
+  category: Think tank / charity
+  url: https://www.suttontrust.com
+  new_in_tracker: true
+- name: Centre for Mental Health
+  tier: '3'
+  category: Think tank (health)
+  url: https://www.centreformentalhealth.org.uk
+  new_in_tracker: true
+- name: Nuffield Trust
+  tier: '2'
+  category: Think tank (health)
+  url: https://www.nuffieldtrust.org.uk
+  new_in_tracker: true
+- name: The King's Fund
+  tier: '2'
+  category: Think tank (health)
+  url: https://www.kingsfund.org.uk
+  new_in_tracker: true
+- name: The Health Foundation
+  tier: '2'
+  category: Think tank (health)
+  url: https://www.health.org.uk
+  new_in_tracker: true
+- name: Ada Lovelace Institute
+  tier: '3'
+  category: Think tank (tech policy)
+  url: https://www.adalovelaceinstitute.org
+  new_in_tracker: true
+- name: Green Alliance
+  tier: '3'
+  category: Think tank (environment)
+  url: https://green-alliance.org.uk
+  new_in_tracker: true
+- name: E3G
+  tier: '3'
+  category: Think tank (climate)
+  url: https://www.e3g.org
+  new_in_tracker: true
+- name: New Economics Foundation
+  tier: '3'
+  category: Think tank (left)
+  url: https://neweconomics.org
+  new_in_tracker: true
+- name: Common Wealth
+  tier: '3'
+  category: Think tank (left)
+  url: https://www.common-wealth.org
+  new_in_tracker: true
+- name: Compass
+  tier: '3'
+  category: Pressure group / think tank (left)
+  url: https://www.compassonline.org.uk
+  new_in_tracker: true
+- name: Tony Blair Institute
+  tier: '2'
+  category: Think tank (centrist)
+  url: https://institute.global
+  new_in_tracker: true
+- name: Reform
+  tier: '3'
+  category: Think tank (non-partisan)
+  url: https://reform.uk
+  new_in_tracker: true
+- name: Policy Exchange
+  tier: '3'
+  category: Think tank (centre-right)
+  url: https://policyexchange.org.uk
+  new_in_tracker: true
+- name: Bright Blue
+  tier: '3'
+  category: Think tank (liberal conservative)
+  url: https://www.brightblue.org.uk
+  new_in_tracker: true
+- name: Centre for Social Justice
+  tier: '3'
+  category: Think tank (centre-right)
+  url: https://www.centreforsocialjustice.org.uk
+  new_in_tracker: true
+- name: Localis
+  tier: '3'
+  category: Think tank (localist)
+  url: https://www.localis.org.uk
+  new_in_tracker: true
+- name: Theos
+  tier: '3'
+  category: Think tank (religion and society)
+  url: https://www.theosthinktank.co.uk/about/theos-internship
+  new_in_tracker: true
+  careers:
+  - https://www.theosthinktank.co.uk/about/theos-internship
+  watch_text: true
+- name: Hansard Society
+  tier: '3'
+  category: Parliamentary research charity
+  url: https://www.hansardsociety.org.uk
+  new_in_tracker: true
+- name: UK in a Changing Europe
+  tier: '2'
+  category: Think tank (UK-EU)
+  url: https://ukandeu.ac.uk
+  new_in_tracker: true
+- name: Centre for European Reform
+  tier: '2'
+  category: Think tank (international)
+  url: https://www.cer.eu
+  new_in_tracker: true
+- name: European Council on Foreign Relations
+  tier: '2'
+  category: Think tank (international)
+  url: https://ecfr.eu
+  new_in_tracker: true
+- name: Foreign Policy Centre
+  tier: '3'
+  category: Think tank (international)
+  url: https://fpc.org.uk
+  new_in_tracker: true
+- name: ODI Global
+  tier: '3'
+  category: Think tank (development)
+  url: https://odi.org
+  new_in_tracker: true
+- name: RUSI
+  tier: '3'
+  category: Think tank (defence and security)
+  url: https://www.rusi.org
+  new_in_tracker: true
+- name: IISS
+  tier: '3'
+  category: Think tank (security)
+  url: https://www.iiss.org
+  new_in_tracker: true
+- name: British Foreign Policy Group
+  tier: '3'
+  category: Think tank (international)
+  url: https://bfpg.co.uk
+  new_in_tracker: true
+- name: Nesta
+  tier: '2'
+  category: Innovation foundation
+  url: https://www.nesta.org.uk
+  new_in_tracker: true
+- name: Behavioural Insights Team
+  tier: '2'
+  category: Policy consultancy
+  url: https://www.bi.team
+  new_in_tracker: true
+- name: Education Endowment Foundation
+  tier: '3'
+  category: What Works centre
+  url: https://educationendowmentfoundation.org.uk
+  new_in_tracker: true
+- name: Policy in Practice
+  tier: '2'
+  category: Welfare policy analytics
+  url: https://policyinpractice.co.uk
+  new_in_tracker: true
+- name: BECG (incl. Cavendish)
+  tier: '2'
+  category: Public affairs
+  url: https://becg.com
+  new_in_tracker: true
+- name: Lexington Communications
+  tier: '2'
+  category: Public affairs
+  url: https://www.lexcomm.co.uk
+  new_in_tracker: true
+- name: Global Counsel
+  tier: '2'
+  category: Policy advisory
+  url: https://www.global-counsel.com
+  new_in_tracker: true
+- name: WPI Strategy
+  tier: '2'
+  category: Public affairs
+  url: https://wpi-strategy.com
+  new_in_tracker: true
+- name: H/Advisors Cicero
+  tier: '2'
+  category: Public affairs
+  url: https://cicero-group.com
+  new_in_tracker: true
+- name: Portland
+  tier: '3'
+  category: Strategic comms / public affairs
+  url: https://portland-communications.com
+  new_in_tracker: true
+- name: Headland
+  tier: '3'
+  category: Strategic comms
+  url: https://www.headlandconsultancy.com
+  new_in_tracker: true
+- name: MHP Group
+  tier: '3'
+  category: Comms / public affairs
+  url: https://www.mhpgroup.com
+  new_in_tracker: true
+- name: FGS Global
+  tier: '3'
+  category: Strategic comms
+  url: https://fgsglobal.com
+  new_in_tracker: true
+- name: Brunswick
+  tier: '3'
+  category: Strategic comms
+  url: https://www.brunswickgroup.com
+  new_in_tracker: true
+- name: Teneo
+  tier: '3'
+  category: Strategic advisory
+  url: https://www.teneo.com
+  new_in_tracker: true
+- name: Edelman
+  tier: '3'
+  category: Comms / public affairs
+  url: https://www.edelman.co.uk
+  new_in_tracker: true
+- name: Burson
+  tier: '3'
+  category: Comms / public affairs
+  url: https://www.bursonglobal.com
+  new_in_tracker: true
+- name: Weber Shandwick
+  tier: '3'
+  category: Comms / public affairs
+  url: https://webershandwick.co.uk
+  new_in_tracker: true
+- name: Interel
+  tier: '3'
+  category: Public affairs
+  url: https://interelgroup.com
+  new_in_tracker: true
+- name: Westbourne Communications
+  tier: '3'
+  category: Public affairs / campaigns
+  url: https://www.westbournecomms.com
+  new_in_tracker: true
+- name: Newington
+  tier: '3'
+  category: Public affairs
+  url: https://www.newington.co.uk
+  new_in_tracker: true
+- name: Grayling
+  tier: '3'
+  category: Public affairs
+  url: https://www.grayling.com
+  new_in_tracker: true
+- name: Pagefield
+  tier: '3'
+  category: Public affairs / comms
+  url: https://www.pagefield.co.uk
+  new_in_tracker: true
+- name: Arden Strategies
+  tier: '3'
+  category: Political strategy
+  url: https://www.ardenstrategies.com
+  new_in_tracker: true
+- name: Stonehaven
+  tier: '3'
+  category: Campaigns and research
+  url: https://www.stonehaven.io
+  new_in_tracker: true
+- name: Rud Pedersen
+  tier: '3'
+  category: Public affairs
+  url: https://rudpedersen.co.uk
+  new_in_tracker: true
+- name: iNHouse Communications
+  tier: '3'
+  category: Public affairs
+  url: https://careers.inhouse.london
+  new_in_tracker: true
+- name: Principle Consulting
+  tier: '2'
+  category: Public affairs (charity sector)
+  url: https://principleconsulting.org.uk/internships-policy-publicaffairs/
+  new_in_tracker: true
+  careers:
+  - https://principleconsulting.org.uk/internships-policy-publicaffairs/
+  watch_text: true
+- name: Dods Political Intelligence
+  tier: '3'
+  category: Political monitoring
+  url: https://www.dodsgroup.com
+  new_in_tracker: true
+- name: Thinks Insight & Strategy
+  tier: '3'
+  category: Polling / research
+  url: https://thinksinsight.com
+  new_in_tracker: true
+- name: YouGov
+  tier: '3'
+  category: Polling
+  url: https://business.yougov.com
+  new_in_tracker: true
+- name: Survation
+  tier: '3'
+  category: Polling
+  url: https://www.survation.com
+  new_in_tracker: true
+- name: Opinium
+  tier: '3'
+  category: Polling
+  url: https://www.opinium.com
+  new_in_tracker: true
+- name: JL Partners
+  tier: '3'
+  category: Polling / strategy
+  url: https://www.jlpartners.com
+  new_in_tracker: true
+- name: Verian
+  tier: '3'
+  category: Social research
+  url: https://www.veriangroup.com
+  new_in_tracker: true
+- name: NatCen
+  tier: '3'
+  category: Social research
+  url: https://natcen.ac.uk
+  new_in_tracker: true
+- name: IFF Research
+  tier: '3'
+  category: Social research
+  url: https://www.iffresearch.com
+  new_in_tracker: true
+- name: Shelter
+  tier: '2'
+  category: Charity (housing)
+  url: https://england.shelter.org.uk
+  new_in_tracker: true
+- name: Crisis
+  tier: '2'
+  category: Charity (homelessness)
+  url: https://www.crisis.org.uk
+  new_in_tracker: true
+- name: National Housing Federation
+  tier: '2'
+  category: Trade body (housing)
+  url: https://www.housing.org.uk
+  new_in_tracker: true
+- name: Centre for Homelessness Impact
+  tier: '3'
+  category: What Works centre (housing)
+  url: https://www.homelessnessimpact.org
+  new_in_tracker: true
+- name: Chartered Institute of Housing
+  tier: '3'
+  category: Professional body (housing)
+  url: https://www.cih.org
+  new_in_tracker: true
+- name: Generation Rent
+  tier: '3'
+  category: Campaign group (housing)
+  url: https://www.generationrent.org
+  new_in_tracker: true
+- name: Homeless Link
+  tier: '3'
+  category: Charity (homelessness)
+  url: https://homeless.org.uk
+  new_in_tracker: true
+- name: Big Issue
+  tier: '3'
+  category: Social enterprise
+  url: https://www.bigissue.com
+  new_in_tracker: true
+- name: Child Poverty Action Group
+  tier: '2'
+  category: Charity (welfare)
+  url: https://cpag.org.uk
+  new_in_tracker: true
+- name: Citizens Advice
+  tier: '2'
+  category: Charity (welfare)
+  url: https://www.citizensadvice.org.uk
+  new_in_tracker: true
+- name: Trussell
+  tier: '3'
+  category: Charity (poverty)
+  url: https://www.trussell.org.uk
+  new_in_tracker: true
+- name: Turn2us
+  tier: '3'
+  category: Charity (welfare)
+  url: https://www.turn2us.org.uk
+  new_in_tracker: true
+- name: Z2K
+  tier: '3'
+  category: Charity (welfare)
+  url: https://www.z2k.org
+  new_in_tracker: true
+- name: Barnardo's
+  tier: '3'
+  category: Charity (children)
+  url: https://www.barnardos.org.uk
+  new_in_tracker: true
+- name: Save the Children UK
+  tier: '3'
+  category: Charity
+  url: https://www.savethechildren.org.uk
+  new_in_tracker: true
+- name: Age UK
+  tier: '3'
+  category: Charity
+  url: https://www.ageuk.org.uk
+  new_in_tracker: true
+- name: Mind
+  tier: '3'
+  category: Charity (mental health)
+  url: https://www.mind.org.uk
+  new_in_tracker: true
+- name: Cancer Research UK
+  tier: '3'
+  category: Charity
+  url: https://www.cancerresearchuk.org
+  new_in_tracker: true
+- name: Oxfam GB
+  tier: '3'
+  category: Charity
+  url: https://www.oxfam.org.uk
+  new_in_tracker: true
+- name: Amnesty International UK
+  tier: '3'
+  category: Campaign group
+  url: https://www.amnesty.org.uk
+  new_in_tracker: true
+- name: Liberty
+  tier: '3'
+  category: Campaign group
+  url: https://www.libertyhumanrights.org.uk
+  new_in_tracker: true
+- name: Electoral Reform Society
+  tier: '3'
+  category: Campaign group
+  url: https://www.electoral-reform.org.uk
+  new_in_tracker: true
+- name: Unlock Democracy
+  tier: '3'
+  category: Campaign group
+  url: https://unlockdemocracy.org
+  new_in_tracker: true
+- name: Full Fact
+  tier: '3'
+  category: Fact-checking charity
+  url: https://fullfact.org
+  new_in_tracker: true
+- name: Citizens UK
+  tier: '3'
+  category: Community organising
+  url: https://www.citizensuk.org
+  new_in_tracker: true
+- name: Which?
+  tier: '3'
+  category: Consumer body
+  url: https://www.which.co.uk
+  new_in_tracker: true
+- name: NCVO
+  tier: '3'
+  category: Charity sector body
+  url: https://www.ncvo.org.uk
+  new_in_tracker: true
+- name: TUC
+  tier: '3'
+  category: Trade union body
+  url: https://www.tuc.org.uk
+  new_in_tracker: true
+- name: UNISON
+  tier: '3'
+  category: Trade union
+  url: https://www.unison.org.uk
+  new_in_tracker: true
+- name: CBI
+  tier: '3'
+  category: Business lobby
+  url: https://www.cbi.org.uk
+  new_in_tracker: true
+- name: British Chambers of Commerce
+  tier: '3'
+  category: Business lobby
+  url: https://www.britishchambers.org.uk
+  new_in_tracker: true
+- name: Federation of Small Businesses
+  tier: '3'
+  category: Business lobby
+  url: https://www.fsb.org.uk
+  new_in_tracker: true
+- name: London First
+  tier: '3'
+  category: Business lobby
+  url: https://www.londonfirst.co.uk
+  new_in_tracker: true
+- name: Home Builders Federation
+  tier: '3'
+  category: Trade body (housing)
+  url: https://www.hbf.co.uk
+  new_in_tracker: true
+- name: British Property Federation
+  tier: '3'
+  category: Trade body (property)
+  url: https://bpf.org.uk
+  new_in_tracker: true
+- name: techUK
+  tier: '3'
+  category: Trade body (tech)
+  url: https://www.techuk.org
+  new_in_tracker: true
+- name: Competition and Markets Authority
+  tier: '2'
+  category: Regulator
+  url: https://www.gov.uk/government/organisations/competition-and-markets-authority/about/recruitment
+  new_in_tracker: true
+- name: Ofgem
+  tier: '3'
+  category: Regulator
+  url: https://www.ofgem.gov.uk
+  new_in_tracker: true
+- name: Ofcom
+  tier: '3'
+  category: Regulator
+  url: https://www.ofcom.org.uk
+  new_in_tracker: true
+- name: Homes England
+  tier: '2'
+  category: Public body (housing)
+  url: https://www.gov.uk/government/organisations/homes-england
+  new_in_tracker: true
+- name: Regulator of Social Housing
+  tier: '3'
+  category: Regulator (housing)
+  url: https://www.gov.uk/government/organisations/regulator-of-social-housing
+  new_in_tracker: true
+- name: Local Government Association
+  tier: '2'
+  category: Local government body
+  url: https://www.local.gov.uk
+  new_in_tracker: true
+- name: London Councils
+  tier: '3'
+  category: Local government
+  url: https://www.londoncouncils.gov.uk
+  new_in_tracker: true
+- name: Islington Council
+  tier: '3'
+  category: Local government
+  url: https://www.islington.gov.uk
+  new_in_tracker: true
+- name: Office for National Statistics
+  tier: '3'
+  category: Public body
+  url: https://analysisfunction.civilservice.gov.uk/vacancies/
+  new_in_tracker: true
+- name: Labour Party
+  tier: '3'
+  category: Political party
+  url: https://labour.org.uk
+  new_in_tracker: true
+- name: Liberal Democrats
+  tier: '3'
+  category: Political party
+  url: https://www.libdems.org.uk
+  new_in_tracker: true
+- name: Green Party
+  tier: '3'
+  category: Political party
+  url: https://greenparty.org.uk
+  new_in_tracker: true
+- name: OECD
+  tier: '2'
+  category: International organisation
+  url: https://jobs.smartrecruiters.com/OECD/744000101644285-internship-programme
+  new_in_tracker: true
+  ats:
+    type: smartrecruiters
+    id: OECD
+- name: United Nations Secretariat
+  tier: '3'
+  category: International organisation
+  url: https://careers.un.org
+  new_in_tracker: true
+  render: true
+- name: Commonwealth Secretariat
+  tier: '3'
+  category: International organisation
+  url: https://thecommonwealth.org/jobs
+  new_in_tracker: true
+- name: NATO
+  tier: '3'
+  category: International organisation
+  url: https://www.nato.int/cps/en/natolive/75725.htm
+  new_in_tracker: true
+- name: European Parliament
+  tier: Later
+  category: International organisation
+  url: https://ep-stages.gestmax.eu
+  new_in_tracker: true
+- name: European Commission
+  tier: Later
+  category: International organisation
+  url: https://traineeships.ec.europa.eu
+  new_in_tracker: true
+- name: Council of Europe
+  tier: Later
+  category: International organisation
+  url: https://www.coe.int/en/web/jobs
+  new_in_tracker: true
+job_boards:
+- name: 'CharityJob: internships in London'
+  category: Job board
+  tier: Board
+  url: https://www.charityjob.co.uk/internship-jobs-in-london
+  careers:
+  - https://www.charityjob.co.uk/internship-jobs-in-london
+- name: 'CharityJob: policy internships in London'
+  category: Job board
+  tier: Board
+  url: https://www.charityjob.co.uk/policy-intern-jobs-in-london
+  careers:
+  - https://www.charityjob.co.uk/policy-intern-jobs-in-london
+  - https://www.charityjob.co.uk/policy-and-advocacy-intern-jobs-in-london
+- name: W4MP
+  category: Job board
+  tier: Board
+  url: https://w4mp.org
+- name: PubAffairs Networking
+  category: Job board
+  tier: Board
+  url: https://www.publicaffairsnetworking.com
+- name: On Think Tanks
+  category: Job board
+  tier: Board
+  url: https://onthinktanks.org
+- name: Resolution Foundation
+  category: Think tank
+  tier: '2'
+  url: https://www.resolutionfoundation.org/about-us/opportunities/
+  careers:
+  - https://www.resolutionfoundation.org/about-us/opportunities/
+  watch_text: true

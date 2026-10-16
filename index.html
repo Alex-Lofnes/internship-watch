@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Internship watch</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    color-scheme: light;
+    --paper: #f5f7f5;
+    --surface: #ffffff;
+    --ink: #15201a;
+    --muted: #56645b;
+    --rule: #d3dcd5;
+    --commons: #0b5a3e;
+    --commons-soft: #e3efe8;
+    --marker: #ffdd00;
+    --marker-ink: #15201a;
+    --problem: #a32b1e;
+    --problem-soft: #f8e7e4;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --paper: #101713;
+      --surface: #16201a;
+      --ink: #e6ede8;
+      --muted: #9babA1;
+      --rule: #26332b;
+      --commons: #5fc29a;
+      --commons-soft: #1b2e24;
+      --marker: #ffdd00;
+      --marker-ink: #101713;
+      --problem: #ff9b8c;
+      --problem-soft: #3a1f1b;
+    }
+  }
+  *, *::before, *::after { box-sizing: inherit; }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Public Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--commons); text-underline-offset: 3px; }
+  a:hover { text-decoration-thickness: 2px; }
+  :focus-visible {
+    outline: 3px solid var(--marker);
+    outline-offset: 0;
+    box-shadow: 0 3px 0 0 var(--ink);
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 40px 24px 64px; }
+
+  /* Header */
+  header h1 {
+    font-size: clamp(2.2rem, 6vw, 3.6rem);
+    font-weight: 800;
+    letter-spacing: -0.035em;
+    line-height: 1;
+    margin: 0 0 18px;
+  }
+  .summary { font-size: 1.15rem; max-width: 62ch; margin: 0; color: var(--muted); }
+  .summary strong { color: var(--ink); font-weight: 600; }
+  .summary .mark strong { color: inherit; }
+  .mark {
+    color: var(--marker-ink);
+    background: linear-gradient(var(--marker), var(--marker)) no-repeat;
+    background-size: 100% 100%;
+    border-radius: .15em .45em .25em .4em;
+    padding: .02em .28em;
+    margin: 0 -.08em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+
+  /* Tabs */
+  nav.tabs { display: flex; gap: 4px; margin: 40px 0 0; border-bottom: 2px solid var(--ink); flex-wrap: wrap; }
+  nav.tabs button {
+    font: inherit; font-weight: 600; font-size: .98rem;
+    background: none; border: 0; color: var(--muted);
+    padding: 10px 14px 12px; cursor: pointer; border-radius: 6px 6px 0 0;
+  }
+  nav.tabs button[aria-selected="true"] { color: var(--surface); background: var(--ink); }
+  nav.tabs .count { font-weight: 500; opacity: .8; margin-left: 4px; }
+
+  /* Filters */
+  .filters {
+    display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center;
+    padding: 18px 0; border-bottom: 1px solid var(--rule);
+  }
+  .filters input[type="search"], .filters select {
+    font: inherit; font-size: .95rem; color: var(--ink);
+    background: var(--surface); border: 2px solid var(--rule); border-radius: 6px;
+    padding: 7px 10px; min-height: 42px;
+  }
+  .filters input[type="search"] { flex: 1 1 220px; }
+  .filters label.toggle { display: inline-flex; gap: 8px; align-items: center; font-size: .95rem; cursor: pointer; }
+  .filters input[type="checkbox"] { width: 18px; height: 18px; accent-color: var(--commons); }
+
+  /* Listings */
+  ul.list { list-style: none; margin: 0; padding: 0; }
+  .row {
+    display: grid;
+    grid-template-columns: 44px minmax(0, 1fr) auto;
+    gap: 4px 16px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--rule);
+    align-items: start;
+  }
+  .row.applied { opacity: .62; }
+  .row.applied .title a { text-decoration: line-through; text-decoration-thickness: 1px; }
+  .tick { position: relative; width: 32px; height: 32px; margin-top: 2px; }
+  .tick input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
+  .tick span {
+    display: block; width: 32px; height: 32px; border: 2px solid var(--ink); border-radius: 6px;
+    background: var(--surface);
+  }
+  .tick input:checked + span { background: var(--commons); border-color: var(--commons); }
+  .tick input:checked + span::after {
+    content: ""; position: absolute; left: 11px; top: 5px; width: 8px; height: 15px;
+    border: solid var(--surface); border-width: 0 3px 3px 0; transform: rotate(45deg);
+  }
+  .tick input:focus-visible + span { outline: 3px solid var(--marker); outline-offset: 2px; }
+  .title { font-size: 1.08rem; font-weight: 600; line-height: 1.35; overflow-wrap: anywhere; }
+  .title a { color: var(--ink); }
+  .title a:hover { color: var(--commons); }
+  .is-new .title a { color: var(--marker-ink); }
+  .meta { font-size: .9rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 2px 14px; margin-top: 4px; }
+  .meta .org { color: var(--ink); font-weight: 500; }
+  .meta .closed { color: var(--problem); font-weight: 500; }
+  .meta .applied-on { color: var(--commons); font-weight: 600; }
+  .actions { display: flex; gap: 6px; }
+  .actions button, .btn {
+    font: inherit; font-size: .88rem; font-weight: 500;
+    background: transparent; color: var(--muted);
+    border: 1px solid var(--rule); border-radius: 6px; padding: 6px 10px; cursor: pointer; min-height: 36px;
+  }
+  .actions button:hover, .btn:hover { color: var(--ink); border-color: var(--ink); }
+
+  /* Page updates */
+  .update { padding: 18px 0; border-bottom: 1px solid var(--rule); }
+  .update h3 { margin: 0; font-size: 1.05rem; }
+  .update blockquote {
+    margin: 10px 0 0; padding: 0 0 0 14px; border-left: 3px solid var(--commons);
+    color: var(--ink); max-width: 75ch;
+  }
+  .update blockquote p { margin: 0 0 6px; }
+
+  /* Coverage */
+  .note { color: var(--muted); max-width: 70ch; margin: 18px 0; }
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: .92rem; min-width: 720px; }
+  th { text-align: left; font-weight: 600; padding: 10px 12px 10px 0; border-bottom: 2px solid var(--ink); }
+  td { padding: 10px 12px 10px 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  td.num { font-variant-numeric: tabular-nums; }
+  .status { font-weight: 600; white-space: nowrap; }
+  .status.error, .status.partial { color: var(--problem); }
+  .status.ok { color: var(--commons); }
+  .detail { color: var(--muted); max-width: 46ch; overflow-wrap: anywhere; }
+
+  .empty { padding: 48px 0; max-width: 56ch; }
+  .empty h2 { margin: 0 0 8px; font-size: 1.3rem; }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--rule); display: flex; flex-wrap: wrap; gap: 10px; align-items: center; color: var(--muted); font-size: .9rem; }
+  footer .spacer { flex: 1; }
+  [hidden] { display: none !important; }
+
+  @media (max-width: 640px) {
+    .wrap { padding: 28px 16px 48px; }
+    .row { grid-template-columns: 40px minmax(0, 1fr); }
+    .actions { grid-column: 2; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .mark { animation: swipe .55s ease-out .15s both; }
+    @keyframes swipe { from { background-size: 0% 100%; } to { background-size: 100% 100%; } }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Internship watch</h1>
+    <p class="summary" id="summary">Loading listings…</p>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Views">
+    <button role="tab" id="tab-listings" aria-controls="view-listings" aria-selected="true">Listings<span class="count" id="c-listings"></span></button>
+    <button role="tab" id="tab-updates" aria-controls="view-updates" aria-selected="false">Page updates<span class="count" id="c-updates"></span></button>
+    <button role="tab" id="tab-coverage" aria-controls="view-coverage" aria-selected="false">Coverage<span class="count" id="c-coverage"></span></button>
+  </nav>
+
+  <section id="view-listings" role="tabpanel" aria-labelledby="tab-listings">
+    <div class="filters">
+      <input type="search" id="q" placeholder="Search titles and organisations" aria-label="Search">
+      <select id="tier" aria-label="Tier"><option value="">All tiers</option></select>
+      <select id="cat" aria-label="Category"><option value="">All categories</option></select>
+      <label class="toggle"><input type="checkbox" id="f-new"> New only</label>
+      <label class="toggle"><input type="checkbox" id="f-hide-applied"> Hide applied</label>
+      <label class="toggle"><input type="checkbox" id="f-closed"> Show closed</label>
+      <label class="toggle"><input type="checkbox" id="f-dismissed"> Show dismissed</label>
+    </div>
+    <ul class="list" id="list"></ul>
+  </section>
+
+  <section id="view-updates" role="tabpanel" aria-labelledby="tab-updates" hidden>
+    <p class="note">These pages are watched for changes in what they say about applications and deadlines, for schemes that announce openings on a fixed page rather than as a new listing.</p>
+    <div id="updates"></div>
+  </section>
+
+  <section id="view-coverage" role="tabpanel" aria-labelledby="tab-coverage" hidden>
+    <p class="note">Every organisation the watcher checks, problems first. To fix an error, find the organisation's real careers page and add it under <code>careers:</code> for that entry in <code>orgs.yaml</code>.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Organisation</th><th>Status</th><th>Found</th><th>Pages checked</th><th>Detail</th></tr></thead>
+      <tbody id="coverage"></tbody>
+    </table></div>
+  </section>
+
+  <footer>
+    <span id="checked"></span>
+    <span class="spacer"></span>
+    <button class="btn" id="export">Export ticks</button>
+    <label class="btn" for="import-file">Import ticks</label>
+    <input type="file" id="import-file" accept="application/json" hidden>
+  </footer>
+</div>
+
+<script src="data.js"></script>
+<script>
+(() => {
+  const DATA = window.WATCH_DATA;
+  const KEY = "internship-watch-v1";
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const fmt = (iso, withTime) => iso ? new Date(iso).toLocaleString("en-GB", withTime
+    ? { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }
+    : { day: "numeric", month: "short", year: "numeric" }) : "";
+
+  function load() {
+    try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; }
+  }
+  function save() {
+    try { localStorage.setItem(KEY, JSON.stringify(store)); } catch { /* storage unavailable: ticks last for this visit only */ }
+  }
+  const store = Object.assign({ applied: {}, dismissed: {}, lastVisit: null, prevVisit: null }, load());
+
+  if (!DATA) {
+    $("summary").textContent = "";
+    $("list").innerHTML = `<li class="empty"><h2>No data yet</h2><p>Run <code>python watch.py</code> to check the careers pages. It writes <code>docs/data.js</code>, which this page reads.</p></li>`;
+    return;
+  }
+
+  // "New" = first seen since your previous visit (visits closer than an hour apart count as one)
+  const now = Date.now();
+  if (!store.lastVisit || now - Date.parse(store.lastVisit) > 3600e3) {
+    store.prevVisit = store.lastVisit;
+    store.lastVisit = new Date(now).toISOString();
+    save();
+  }
+  const since = store.prevVisit ? Date.parse(store.prevVisit) : now - 3 * 864e5;
+  const isNew = (p) => !p.initial && Date.parse(p.first_seen) > since;
+
+  const posts = DATA.postings;
+  const tiers = [...new Set(posts.map((p) => p.tier).filter(Boolean))].sort();
+  const cats = [...new Set(posts.map((p) => p.category).filter(Boolean))].sort();
+  $("tier").insertAdjacentHTML("beforeend", tiers.map((t) => `<option value="${esc(t)}">Tier ${esc(t)}</option>`).join(""));
+  $("cat").insertAdjacentHTML("beforeend", cats.map((c) => `<option>${esc(c)}</option>`).join(""));
+
+  function summary() {
+    const live = posts.filter((p) => p.active && !store.dismissed[p.id]);
+    const orgs = new Set(live.map((p) => p.org)).size;
+    const fresh = live.filter(isNew).length;
+    const applied = Object.keys(store.applied).length;
+    $("summary").innerHTML =
+      `<strong>${live.length}</strong> live listing${live.length === 1 ? "" : "s"} across <strong>${orgs}</strong> organisation${orgs === 1 ? "" : "s"}. ` +
+      (fresh ? `<span class="mark"><strong>${fresh}</strong> new since your last visit.</span> ` : "Nothing new since your last visit. ") +
+      `You've applied to <strong>${applied}</strong>.`;
+    $("c-listings").textContent = live.length;
+  }
+
+  function renderList() {
+    const q = $("q").value.trim().toLowerCase();
+    const tier = $("tier").value, cat = $("cat").value;
+    const onlyNew = $("f-new").checked, hideApplied = $("f-hide-applied").checked;
+    const showClosed = $("f-closed").checked, showDismissed = $("f-dismissed").checked;
+    const rows = posts.filter((p) =>
+      (showClosed || p.active) &&
+      (showDismissed || !store.dismissed[p.id]) &&
+      (!hideApplied || !store.applied[p.id]) &&
+      (!onlyNew || isNew(p)) &&
+      (!tier || p.tier === tier) && (!cat || p.category === cat) &&
+      (!q || `${p.title} ${p.org}`.toLowerCase().includes(q)));
+    rows.sort((a, b) => (isNew(b) - isNew(a)) || b.first_seen.localeCompare(a.first_seen));
+
+    if (!rows.length) {
+      $("list").innerHTML = `<li class="empty"><h2>No listings match these filters</h2><p>Clear the search or untick a filter to see more.</p></li>`;
+      return;
+    }
+    $("list").innerHTML = rows.map((p) => {
+      const applied = store.applied[p.id], fresh = isNew(p), dismissed = store.dismissed[p.id];
+      return `<li class="row${applied ? " applied" : ""}${fresh ? " is-new" : ""}" data-id="${esc(p.id)}">
+        <label class="tick" title="Applied"><input type="checkbox" data-act="apply" ${applied ? "checked" : ""} aria-label="Applied to ${esc(p.title)}"><span></span></label>
+        <div>
+          <div class="title"><a href="${esc(p.url)}" target="_blank" rel="noopener">${fresh ? `<span class="mark">${esc(p.title)}</span>` : esc(p.title)}</a></div>
+          <div class="meta">
+            <span class="org">${esc(p.org)}</span>
+            ${p.tier ? `<span>Tier ${esc(p.tier)}</span>` : ""}
+            ${p.category ? `<span>${esc(p.category)}</span>` : ""}
+            <span>First seen ${fmt(p.first_seen)}</span>
+            ${p.active ? "" : `<span class="closed">No longer listed</span>`}
+            ${applied ? `<span class="applied-on">Applied ${fmt(applied)}</span>` : ""}
+          </div>
+        </div>
+        <div class="actions"><button data-act="dismiss">${dismissed ? "Restore" : "Dismiss"}</button></div>
+      </li>`;
+    }).join("");
+  }
+
+  function renderUpdates() {
+    const ch = DATA.changes || [];
+    $("c-updates").textContent = ch.length || "";
+    $("updates").innerHTML = ch.length ? ch.map((c) => `
+      <article class="update">
+        <h3>${esc(c.org)}</h3>
+        <div class="meta"><span>${fmt(c.at, true)}</span><a href="${esc(c.url)}" target="_blank" rel="noopener">Open page</a></div>
+        <blockquote>${c.added.map((s) => `<p>${esc(s)}</p>`).join("")}</blockquote>
+      </article>`).join("")
+      : `<div class="empty"><h2>No page updates yet</h2><p>When a watched page changes what it says about applications, the new wording appears here and in your email.</p></div>`;
+  }
+
+  function renderCoverage() {
+    const order = { error: 0, partial: 1, "not checked yet": 2, skipped: 3, ok: 4 };
+    const cov = [...DATA.coverage].sort((a, b) => (order[a.status] ?? 5) - (order[b.status] ?? 5) || a.name.localeCompare(b.name));
+    const problems = cov.filter((c) => c.status === "error" || c.status === "partial").length;
+    $("c-coverage").textContent = problems ? `${problems} to fix` : "";
+    $("coverage").innerHTML = cov.map((c) => `<tr>
+      <td><a href="${esc(c.homepage)}" target="_blank" rel="noopener">${esc(c.name)}</a></td>
+      <td class="status ${esc(c.status)}">${esc(c.status)}</td>
+      <td class="num">${c.found ?? ""}</td>
+      <td class="detail">${(c.careers_urls || []).map((u) => u.startsWith("http") ? `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/, "").slice(0, 60))}</a>` : esc(u)).join("<br>")}</td>
+      <td class="detail">${esc(c.detail || "")}</td>
+    </tr>`).join("");
+  }
+
+  $("list").addEventListener("change", (e) => {
+    if (e.target.dataset.act !== "apply") return;
+    const id = e.target.closest(".row").dataset.id;
+    if (e.target.checked) store.applied[id] = new Date().toISOString(); else delete store.applied[id];
+    save(); summary(); renderList();
+  });
+  $("list").addEventListener("click", (e) => {
+    if (e.target.dataset.act !== "dismiss") return;
+    const id = e.target.closest(".row").dataset.id;
+    if (store.dismissed[id]) delete store.dismissed[id]; else store.dismissed[id] = true;
+    save(); summary(); renderList();
+  });
+  ["q", "tier", "cat", "f-new", "f-hide-applied", "f-closed", "f-dismissed"].forEach((id) =>
+    $(id).addEventListener(id === "q" ? "input" : "change", renderList));
+
+  const tabs = ["listings", "updates", "coverage"];
+  tabs.forEach((t) => $("tab-" + t).addEventListener("click", () => {
+    tabs.forEach((u) => {
+      $("tab-" + u).setAttribute("aria-selected", String(u === t));
+      $("view-" + u).hidden = u !== t;
+    });
+  }));
+
+  $("export").addEventListener("click", () => {
+    const blob = new Blob([JSON.stringify({ applied: store.applied, dismissed: store.dismissed }, null, 1)], { type: "application/json" });
+    const a = Object.assign(document.createElement("a"), { href: URL.createObjectURL(blob), download: "internship-watch-ticks.json" });
+    a.click(); URL.revokeObjectURL(a.href);
+  });
+  $("import-file").addEventListener("change", async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    try {
+      const data = JSON.parse(await file.text());
+      Object.assign(store.applied, data.applied || {});
+      Object.assign(store.dismissed, data.dismissed || {});
+      save(); summary(); renderList();
+    } catch { alert("That file isn't a ticks export from this page."); }
+    e.target.value = "";
+  });
+
+  const last = DATA.runs && DATA.runs[0];
+  $("checked").textContent = `Last checked ${fmt(DATA.generated, true)}` + (last && last.errors ? `, ${last.errors} organisations had errors` : "");
+  summary(); renderList(); renderUpdates(); renderCoverage();
+})();
+</script>
+</body>
+</html>
