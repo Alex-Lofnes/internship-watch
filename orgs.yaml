@@ -90,6 +90,8 @@ organisations:
   tier: '3'
   category: Local government
   url: https://www.london.gov.uk
+  careers:
+  - https://www.london.gov.uk/take-part/working-city-hall/current-vacancies
 - name: Flint Global
   tier: '2'
   category: Public affairs
@@ -127,7 +129,7 @@ organisations:
   url: https://www.chathamhouse.org/academy/internships
   new_in_tracker: true
   careers:
-  - https://www.chathamhouse.org/academy/internships
+  - https://www.chathamhouse.org/about-us/careers#current-opportunities
   watch_text: true
 - name: RSA
   tier: '2'
@@ -372,6 +374,8 @@ organisations:
   category: Policy consultancy
   url: https://www.bi.team
   new_in_tracker: true
+  careers: 
+  - https://www.bi.team/about-us/careers/#listing
 - name: Education Endowment Foundation
   tier: '3'
   category: What Works centre
@@ -442,6 +446,8 @@ organisations:
   category: Comms / public affairs
   url: https://www.edelman.co.uk
   new_in_tracker: true
+  careers:
+  - https://djeholdings.wd5.myworkdayjobs.com/edelman-careers-E200?locations=9aea86bf32a11001b495e8e5680f0000
 - name: Burson
   tier: '3'
   category: Comms / public affairs
@@ -580,6 +586,8 @@ organisations:
   category: Campaign group (housing)
   url: https://www.generationrent.org
   new_in_tracker: true
+  careers:
+  - https://www.generationrent.org/generation-rent-jobs/
 - name: Homeless Link
   tier: '3'
   category: Charity (homelessness)
@@ -595,6 +603,8 @@ organisations:
   category: Charity (welfare)
   url: https://cpag.org.uk
   new_in_tracker: true
+  careers:
+  - https://cpag.org.uk/jobs/current-vacancies
 - name: Citizens Advice
   tier: '2'
   category: Charity (welfare)
@@ -829,6 +839,8 @@ organisations:
   category: International organisation
   url: https://www.coe.int/en/web/jobs
   new_in_tracker: true
+  careers:
+  - https://talents.coe.int/en_GB/careersmarketplace/SearchJobs/internship?listFilterMode=1&jobRecordsPerPage=6&
 job_boards:
 - name: 'CharityJob: internships in London'
   category: Job board
