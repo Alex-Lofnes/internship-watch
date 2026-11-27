@@ -5,7 +5,7 @@
    "title": "Application guidance for 2020",
    "url": "https://assets.publishing.service.gov.uk/media/5e5794f3e90e07110a59331e/GSR_Summer_Student_scheme_2020_application_guidance.docx",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "1",
    "category": "Civil service",
@@ -16,7 +16,7 @@
    "title": "Early careers",
    "url": "https://www.fca.org.uk/careers/early-careers",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "2",
    "category": "Regulator",
@@ -28,10 +28,11 @@
    "url": "https://patchworkfoundation.org.uk/flint-global-internship-programme/",
    "first_seen": "2026-10-19T09:25:48+00:00",
    "last_seen": "2026-11-26T17:28:09+00:00",
-   "active": true,
+   "active": false,
    "tier": "3",
    "category": "Politics / public affairs",
-   "initial": true
+   "initial": true,
+   "closed": "2026-11-27T00:25:08+00:00"
   },
   "b12b6a51e98f67": {
    "org": "Patchwork Foundation",
@@ -39,17 +40,18 @@
    "url": "https://patchworkfoundation.org.uk/our-work/internships/",
    "first_seen": "2026-10-19T09:25:48+00:00",
    "last_seen": "2026-11-26T17:28:09+00:00",
-   "active": true,
+   "active": false,
    "tier": "3",
    "category": "Politics / public affairs",
-   "initial": true
+   "initial": true,
+   "closed": "2026-11-27T00:25:08+00:00"
   },
   "0d5df8d75b82a7": {
    "org": "MPs' offices (via W4MP or direct)",
    "title": "Creative Access Adverts for Traineeships in the Media",
    "url": "https://w4mp.org/jobs-listings-events/jobs/advertising-jobs-with-w4mp/creative-access-adverts-for-traineeships-in-the-media/",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "3",
    "category": "Parliament",
@@ -60,7 +62,7 @@
    "title": "Internship Opportunities",
    "url": "https://epi.org.uk/internship-opportunities/",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "1",
    "category": "Think tank",
@@ -72,10 +74,11 @@
    "url": "https://flint-global.com/join-flint/",
    "first_seen": "2026-10-19T09:25:48+00:00",
    "last_seen": "2026-11-26T17:28:09+00:00",
-   "active": true,
+   "active": false,
    "tier": "2",
    "category": "Public affairs",
-   "initial": true
+   "initial": true,
+   "closed": "2026-11-27T00:25:08+00:00"
   },
   "ae89d73028f43e": {
    "org": "Flint Global",
@@ -83,17 +86,18 @@
    "url": "https://flint-global.com/internship/",
    "first_seen": "2026-10-19T09:25:48+00:00",
    "last_seen": "2026-11-26T17:28:09+00:00",
-   "active": true,
+   "active": false,
    "tier": "2",
    "category": "Public affairs",
-   "initial": true
+   "initial": true,
+   "closed": "2026-11-27T00:25:08+00:00"
   },
   "f7352d5f2ed79d": {
    "org": "Institute for Government",
    "title": "FAQs about internships at the Institute for Government:",
    "url": "https://www.instituteforgovernment.org.uk/about-us/careers/ifg-internship-programme/faqs",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Later",
    "category": "Think tank",
@@ -104,7 +108,7 @@
    "title": "IfG internship programme",
    "url": "https://www.instituteforgovernment.org.uk/about-us/careers/internship-programme",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Later",
    "category": "Think tank",
@@ -128,10 +132,11 @@
    "url": "https://www.wbg.org.uk/early-career-network/",
    "first_seen": "2026-10-19T09:25:48+00:00",
    "last_seen": "2026-11-26T17:28:09+00:00",
-   "active": true,
+   "active": false,
    "tier": "3",
    "category": "Think tank",
-   "initial": true
+   "initial": true,
+   "closed": "2026-11-27T00:25:08+00:00"
   },
   "5d86a27a7b4068": {
    "org": "Nuffield Trust",
@@ -162,7 +167,7 @@
    "title": "Theos Internship",
    "url": "https://www.theosthinktank.co.uk/about/about/theos-internship",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "3",
    "category": "Think tank (religion and society)",
@@ -173,7 +178,7 @@
    "title": "Jobs, internships and work experience",
    "url": "https://www.hansardsociety.org.uk/about/careers/jobs",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "3",
    "category": "Parliamentary research charity",
@@ -184,7 +189,7 @@
    "title": "Jobs 5521217 The Portland Internship 2025",
    "url": "https://portland.teamtailor.com/jobs/5521217-the-portland-internship-2025",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "3",
    "category": "Strategic comms / public affairs",
@@ -195,7 +200,7 @@
    "title": "U.S. Intern Program",
    "url": "https://fgsglobal.com/join-us/united-states/intern-program",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "3",
    "category": "Strategic comms",
@@ -230,7 +235,7 @@
    "title": "Early Careers",
    "url": "https://jobs.yougov.com/early-careers",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "3",
    "category": "Polling",
@@ -241,7 +246,7 @@
    "title": "Junior Creative Drew Bunyan's Interview With The Times On The Launchpad Internship Junior Creative, Drew Bunyan, was recently interviewed by The Times in a feature on internships. He shared his experi",
    "url": "https://webershandwick.co.uk/news/junior-creative-drew-bunyans-interview-on-the-launchpad-internship-in-the-times-feature",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "3",
    "category": "Comms / public affairs",
@@ -252,7 +257,7 @@
    "title": "10,000 Black Interns",
    "url": "https://10000internsfoundation.com/our-programmes/",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "3",
    "category": "Social research",
@@ -263,7 +268,7 @@
    "title": "Finance graduate trainee scheme",
    "url": "https://www.islington.gov.uk/jobs-and-careers/apprenticeships/cipfa-finance-graduate-trainee-scheme",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "3",
    "category": "Local government",
@@ -286,7 +291,7 @@
    "title": "Traineeships at the European Parliament",
    "url": "https://ep-stages.gestmax.eu/website/homepage",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Later",
    "category": "International organisation",
@@ -297,7 +302,7 @@
    "title": "Traineeship offers",
    "url": "https://ep-stages.gestmax.eu/search",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Later",
    "category": "International organisation",
@@ -332,7 +337,7 @@
    "title": "Administrative Traineeship for university graduates",
    "url": "https://traineeships.ec.europa.eu/administrative-traineeship-university-graduates_en",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Later",
    "category": "International organisation",
@@ -343,7 +348,7 @@
    "title": "Eligibility criteria",
    "url": "https://traineeships.ec.europa.eu/administrative-traineeship-university-graduates/eligibility-criteria-administrative-traineeship-university-graduates_en",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Later",
    "category": "International organisation",
@@ -354,7 +359,7 @@
    "title": "How to Apply",
    "url": "https://traineeships.ec.europa.eu/administrative-traineeship-university-graduates/how-apply-administrative-traineeship-university-graduates_en",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Later",
    "category": "International organisation",
@@ -365,7 +370,7 @@
    "title": "Selection",
    "url": "https://traineeships.ec.europa.eu/administrative-traineeship-university-graduates/blue-book-admin_en",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Later",
    "category": "International organisation",
@@ -376,7 +381,7 @@
    "title": "Administrative Traineeship for VET graduates",
    "url": "https://traineeships.ec.europa.eu/administrative-traineeship-vocational-education-and-training-graduates_en",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Later",
    "category": "International organisation",
@@ -387,7 +392,7 @@
    "title": "Eligibility criteria",
    "url": "https://traineeships.ec.europa.eu/administrative-traineeship-vocational-education-and-training-graduates/eligibility-criteria-administrative-traineeship-vocational-education-and-training-graduates_en",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Later",
    "category": "International organisation",
@@ -398,7 +403,7 @@
    "title": "How to apply",
    "url": "https://traineeships.ec.europa.eu/administrative-traineeship-vocational-education-and-training-graduates/how-apply-administrative-traineeship-vocational-education-and-training-graduates_en",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Later",
    "category": "International organisation",
@@ -409,7 +414,7 @@
    "title": "Selection",
    "url": "https://traineeships.ec.europa.eu/administrative-traineeship-vocational-education-and-training-graduates/virtual-blue-book-vocational-education-and-training-traineeship_en",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Later",
    "category": "International organisation",
@@ -420,7 +425,7 @@
    "title": "Translation Traineeship",
    "url": "https://traineeships.ec.europa.eu/translation-traineeship_en",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Later",
    "category": "International organisation",
@@ -431,7 +436,7 @@
    "title": "Eligibility criteria",
    "url": "https://traineeships.ec.europa.eu/translation-traineeship/eligibility-criteria-translation-traineeship_en",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Later",
    "category": "International organisation",
@@ -442,7 +447,7 @@
    "title": "How to apply",
    "url": "https://traineeships.ec.europa.eu/translation-traineeship/how-apply-translation-traineeship_en",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Later",
    "category": "International organisation",
@@ -453,7 +458,7 @@
    "title": "Selection",
    "url": "https://traineeships.ec.europa.eu/translation-traineeship/blue-book-dgt_en",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Later",
    "category": "International organisation",
@@ -476,7 +481,7 @@
    "title": "Former trainees' testimonials",
    "url": "https://traineeships.ec.europa.eu/about/testimonials_en",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Later",
    "category": "International organisation",
@@ -487,7 +492,7 @@
    "title": "Nuffield Research Placements",
    "url": "https://www.nuffieldresearchplacements.org/",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "2",
    "category": "Think tank",
@@ -546,7 +551,7 @@
    "title": "Creative Access Adverts for Traineeships in the Media",
    "url": "https://w4mp.org/jobs-listings-events/jobs/advertising-jobs-with-w4mp/creative-access-adverts-for-traineeships-in-the-media/",
    "first_seen": "2026-10-19T09:25:48+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Board",
    "category": "Job board",
@@ -557,7 +562,7 @@
    "title": "Explore IT traineeships",
    "url": "https://traineeships.ec.europa.eu/it-opportunities-blue-book-traineeship_en",
    "first_seen": "2026-10-19T20:57:49+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Later",
    "category": "International organisation",
@@ -568,7 +573,7 @@
    "title": "English",
    "url": "https://talents.coe.int/en_GB/careersmarketplace/SearchJobs/internship?listFilterMode=1&jobRecordsPerPage=6",
    "first_seen": "2026-10-19T20:57:49+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Later",
    "category": "International organisation",
@@ -579,7 +584,7 @@
    "title": "Français",
    "url": "https://talents.coe.int/fr_FR/careersmarketplace/SearchJobs/internship?listFilterMode=1&jobRecordsPerPage=6",
    "first_seen": "2026-10-19T20:57:49+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Later",
    "category": "International organisation",
@@ -590,7 +595,7 @@
    "title": "Theos Internship",
    "url": "https://www.theosthinktank.co.uk/about/about/about/theos-internship",
    "first_seen": "2026-10-21T12:35:40+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "3",
    "category": "Think tank (religion and society)",
@@ -601,7 +606,7 @@
    "title": "Internship Programme",
    "url": "https://jobs.smartrecruiters.com/OECD/744000159414159",
    "first_seen": "2026-11-03T21:38:44+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "2",
    "category": "International organisation",
@@ -636,7 +641,7 @@
    "title": "Trainee Research Executive",
    "url": "https://www.survation.com/survation-is-hiring-a-trainee-research-executive/",
    "first_seen": "2026-11-06T14:44:59+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "3",
    "category": "Polling",
@@ -647,7 +652,7 @@
    "title": "work experience",
    "url": "https://w4mp.org/tag/work-experience/",
    "first_seen": "2026-11-11T22:33:26+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "3",
    "category": "Parliament",
@@ -658,7 +663,7 @@
    "title": "work experience",
    "url": "https://w4mp.org/tag/work-experience/",
    "first_seen": "2026-11-11T22:33:26+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Board",
    "category": "Job board",
@@ -669,7 +674,7 @@
    "title": "Our Trainee programme is now open for applications – click for more detail",
    "url": "https://www.headlandconsultancy.com/careers/trainees/",
    "first_seen": "2026-11-12T15:43:10+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "3",
    "category": "Strategic comms",
@@ -680,7 +685,7 @@
    "title": "Apply for the Summer Internship",
    "url": "https://eoff.fa.em1.ukg.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/jobs?keyword=%27summer+internship%27&mode=location",
    "first_seen": "2026-11-16T16:40:18+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "1",
    "category": "Government-adjacent",
@@ -691,7 +696,7 @@
    "title": "Do you know anyone aged 14 to 18 who is interested in the work of Parliament?",
    "url": "https://w4mp.org/2026/11/23/virtual-work-experience/",
    "first_seen": "2026-11-23T18:53:33+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "3",
    "category": "Parliament",
@@ -702,7 +707,7 @@
    "title": "Do you know anyone aged 14 to 18 who is interested in the work of Parliament?",
    "url": "https://w4mp.org/2026/11/23/virtual-work-experience/",
    "first_seen": "2026-11-23T18:53:33+00:00",
-   "last_seen": "2026-11-26T17:28:09+00:00",
+   "last_seen": "2026-11-27T00:25:08+00:00",
    "active": true,
    "tier": "Board",
    "category": "Job board",
@@ -721,13 +726,13 @@
     "27 February 2017 The 2017 GSR summer vacation placement scheme has now closed.",
     "Please fill in this survey (opens in a new tab ) ."
    ],
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "https://analysisfunction.civilservice.gov.uk/vacancies/": {
    "org": "Government Social Research (GSR)",
    "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
    "sentences": [],
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "https://ukonward.com/internship/": {
    "org": "Onward",
@@ -738,7 +743,7 @@
     "The advertised role is expected to run from August to February 2026, and the next internship cycle is open now.",
     "While we accept rolling applications, please note that if you apply mid-cycle, your application will be considered in the next recruitment cycle."
    ],
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "https://www.bankofengland.co.uk/careers/future-talent/internships": {
    "org": "Bank of England",
@@ -746,7 +751,7 @@
    "sentences": [
     "Apply now Apply for the Summer Internship Find out more about our application process Back to top This page was last updated 16 November 2026"
    ],
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "https://www.bankofengland.co.uk/careers/how-to-apply-for-phd-programme-and-internships": {
    "org": "Bank of England",
@@ -769,25 +774,19 @@
     "Your interview and application should capture your own personal and academic journey.",
     "AI-based tools can be useful for additional support so please let us know in advance for us to support you the best we can by contacting us at PhD-recruitment@bankofengland.co.uk ."
    ],
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "https://www.bankofengland.co.uk/careers/why-you-should-join-us": {
    "org": "Bank of England",
    "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
    "sentences": [],
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "https://patchworkfoundation.org.uk/our-work/internships/": {
    "org": "Patchwork Foundation",
-   "hash": "0372d64682838196907bebd8534d8a26293f4f02",
-   "sentences": [
-    "Getting involved in a Patchwork Masterclass and a visit to No10 played an important part of me realising that I could have a seat at the table, and that the political world was open to me too.",
-    "I’m now determined to pay that forward to ensure that the young people of today have the confidence, the knowledge and the insights to be the politicians of tomorrow.” Internship updates Mentor applications for 2027 are now open!",
-    "This opportunity is open to current and recent participants of the Patchwork Masterclass Programme.",
-    "This opportunity is open to young people aged 19 to 22 from underrepresented backgrounds.",
-    "Applications Applications for both schemes for the current cycle are now closed."
-   ],
-   "checked": "2026-11-26T17:28:09+00:00"
+   "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "sentences": [],
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "https://patchworkfoundation.org.uk/flint-global-internship-programme/": {
    "org": "Patchwork Foundation",
@@ -802,24 +801,15 @@
   },
   "https://flint-global.com/internship/": {
    "org": "Flint Global",
-   "hash": "4c60be4770a3e510ab0a9acdd6d9020d522e7bf7",
-   "sentences": [
-    "You’ll leave with a deeper understanding of how your skills apply in a professional context.",
-    "Application process Explore our jobs page to discover current available internship opportunities.",
-    "Please note we only consider internship applications for roles that are formally advertised on our careers page.",
-    "Our internships are available in all our regions; however, applicants must have the legal right to work in the jurisdiction where they apply."
-   ],
-   "checked": "2026-11-26T17:28:09+00:00"
+   "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "sentences": [],
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "https://flint-global.com/join-flint/": {
    "org": "Flint Global",
-   "hash": "5a29e05ca73be44cfcfd3b200353159a94e71318",
-   "sentences": [
-    "Please note we only consider applications for roles that are formally advertised on our careers page.",
-    "Any roles we're currently recruiting for will be listed there with instructions on how to apply.",
-    "We don't accept applications through this form."
-   ],
-   "checked": "2026-11-26T17:28:09+00:00"
+   "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+   "sentences": [],
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "https://www.instituteforgovernment.org.uk/about-us/careers/internship-programme": {
    "org": "Institute for Government",
@@ -834,7 +824,7 @@
     "You can also sign up to receive recruitment updates from us, which will include when applications open for the internship programmes.",
     "Any dates mentioned relate only to our 2024 recruitment round - please see our current vacancies page for current year dates and details."
    ],
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "https://www.instituteforgovernment.org.uk/about-us/careers/ifg-internship-programme/faqs": {
    "org": "Institute for Government",
@@ -864,7 +854,7 @@
     "The application process for the research and communications interns follow the same structure and have the same stages as outlined above, but the questions asked in the application and at interview will be different.",
     "Interns are free to apply to permanent roles at the Institute when vacancies arise – and some current members of staff were first employed as interns."
    ],
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "https://www.theosthinktank.co.uk/about/theos-internship": {
    "org": "Theos",
@@ -872,13 +862,13 @@
    "sentences": [
     "The Theos internship proved that, despite the merits of these two professions, theology can also open doors to careers in policy, communications and research."
    ],
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "https://principleconsulting.org.uk/internships-policy-publicaffairs/": {
    "org": "Principle Consulting",
    "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
    "sentences": [],
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "https://www.resolutionfoundation.org/about-us/opportunities/": {
    "org": "Resolution Foundation",
@@ -892,13 +882,13 @@
     "Applications have now closed.",
     "Unfortunately, we do not take direct applications."
    ],
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "https://www.theosthinktank.co.uk/about/about/theos-internship": {
    "org": "Theos",
    "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
    "sentences": [],
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   }
  },
  "changes": [
@@ -2212,7 +2202,7 @@
    "detail": "Civil Service Jobs needs a logged-in search. Use its own email alerts instead.",
    "careers_urls": [],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Civil Service Fast Stream": {
    "status": "error",
@@ -2221,7 +2211,7 @@
     "https://www.civil-service-careers.gov.uk/fast-stream/fs-summer-internship-programme"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Institute for Fiscal Studies (IFS)": {
    "status": "error",
@@ -2231,16 +2221,16 @@
     "https://ifs.org.uk/jobs"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "IPPR": {
-   "status": "ok",
-   "detail": "",
+   "status": "error",
+   "detail": "https://www.ippr.org/jobs: 403 Client Error: Forbidden for url: https://www.ippr.org/jobs",
    "careers_urls": [
     "https://www.ippr.org/jobs"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Government Social Research (GSR)": {
    "status": "ok",
@@ -2250,7 +2240,7 @@
     "https://analysisfunction.civilservice.gov.uk/vacancies/"
    ],
    "found": 1,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "House of Commons": {
    "status": "error",
@@ -2259,7 +2249,7 @@
     "https://www.parliament.uk/about/careers/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Onward": {
    "status": "ok",
@@ -2268,7 +2258,7 @@
     "https://ukonward.com/internship/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Bank of England": {
    "status": "ok",
@@ -2279,7 +2269,7 @@
     "https://www.bankofengland.co.uk/careers/why-you-should-join-us"
    ],
    "found": 1,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Financial Conduct Authority": {
    "status": "partial",
@@ -2290,16 +2280,16 @@
     "https://www.fca.org.uk/careers/early-careers"
    ],
    "found": 1,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Patchwork Foundation": {
    "status": "ok",
-   "detail": "",
+   "detail": "read https://patchworkfoundation.org.uk/our-work/internships/ with a headless browser",
    "careers_urls": [
     "https://patchworkfoundation.org.uk/our-work/internships/"
    ],
-   "found": 2,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "found": 0,
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "MPs' offices (via W4MP or direct)": {
    "status": "ok",
@@ -2310,7 +2300,7 @@
     "https://w4mp.org/jobs-listings-events/"
    ],
    "found": 3,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Public First": {
    "status": "error",
@@ -2319,7 +2309,7 @@
     "https://www.publicfirst.co.uk/careers"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Greater London Authority": {
    "status": "ok",
@@ -2328,7 +2318,7 @@
     "https://www.london.gov.uk/take-part/working-city-hall/current-vacancies"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Education Policy Institute (EPI)": {
    "status": "ok",
@@ -2339,7 +2329,7 @@
     "https://epi.org.uk/join-us/"
    ],
    "found": 1,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Hanbury Strategy": {
    "status": "ok",
@@ -2348,7 +2338,7 @@
     "https://www.hanburystrategy.com"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Chatham House": {
    "status": "error",
@@ -2357,17 +2347,17 @@
     "https://www.chathamhouse.org/about-us/careers#current-opportunities"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Flint Global": {
    "status": "ok",
-   "detail": "",
+   "detail": "read https://flint-global.com/internship/ with a headless browser; read https://flint-global.com/join-flint/ with a headless browser",
    "careers_urls": [
     "https://flint-global.com/internship/",
     "https://flint-global.com/join-flint/"
    ],
-   "found": 2,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "found": 0,
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "More in Common UK": {
    "status": "ok",
@@ -2376,7 +2366,7 @@
     "https://www.moreincommon.org.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Ipsos UK": {
    "status": "ok",
@@ -2385,7 +2375,7 @@
     "https://www.ipsos.com/en-uk/careers-at-ipsos"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Institute for Government": {
    "status": "ok",
@@ -2394,14 +2384,14 @@
     "https://www.instituteforgovernment.org.uk/about-us/careers/internship-programme"
    ],
    "found": 2,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "RSA": {
    "status": "error",
    "detail": "https://www.thersa.org: 403 Client Error: Forbidden for url: https://www.thersa.org/",
    "careers_urls": [],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Learning and Work Institute": {
    "status": "ok",
@@ -2410,7 +2400,7 @@
     "https://learningandwork.org.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "NIESR": {
    "status": "ok",
@@ -2420,7 +2410,7 @@
     "https://niesr.ac.uk/publications/dollar-risk-and-euro-opportunity"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Energy and Climate Intelligence Unit (ECIU)": {
    "status": "ok",
@@ -2430,7 +2420,7 @@
     "https://eciu.net?tag=145965"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Labour Together": {
    "status": "ok",
@@ -2439,7 +2429,7 @@
     "https://www.labourtogether.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Centre for Progressive Policy": {
    "status": "ok",
@@ -2448,14 +2438,14 @@
     "https://www.progressive-policy.net"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Social Market Foundation": {
    "status": "error",
    "detail": "https://www.smf.co.uk: 403 Client Error: Forbidden for url: https://www.smf.co.uk/",
    "careers_urls": [],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Centre for Cities": {
    "status": "ok",
@@ -2464,7 +2454,7 @@
     "https://www.centreforcities.org"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "New Local": {
    "status": "ok",
@@ -2473,27 +2463,27 @@
     "https://www.newlocal.org.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Demos": {
-   "status": "error",
-   "detail": "https://demos.co.uk/work-with-us/: HTTPSConnectionPool(host='demos.co.uk', port=443): Read timed out. (read timeout=20); https://demos.co.uk/work-with-us/collaborate-on-projects/: HTTPSConnectionPool(host='demos.co.uk', port=443): Read timed out. (read timeout=20); https://demos.co.uk/work-with-us/partner-on-events/: HTTPSConnectionPool(host='demos.co.uk', port=443): Read timed out. (read timeout=20)",
+   "status": "ok",
+   "detail": "",
    "careers_urls": [
     "https://demos.co.uk/work-with-us/",
     "https://demos.co.uk/work-with-us/collaborate-on-projects/",
     "https://demos.co.uk/work-with-us/partner-on-events/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "LGIU (Local Government Information Unit)": {
    "status": "ok",
-   "detail": "",
+   "detail": "read https://lgiu.org/from-waste-to-opportunity-the-circular-economy-and-local-government/ with a headless browser",
    "careers_urls": [
     "https://lgiu.org/from-waste-to-opportunity-the-circular-economy-and-local-government/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Joseph Rowntree Foundation": {
    "status": "ok",
@@ -2502,7 +2492,7 @@
     "https://www.jrf.org.uk/careers"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Institute for Employment Studies": {
    "status": "ok",
@@ -2512,7 +2502,7 @@
     "https://www.employment-studies.co.uk/hr-network-membership/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Fabian Society": {
    "status": "ok",
@@ -2522,7 +2512,7 @@
     "https://fabians.org.uk/join/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Pensions Policy Institute": {
    "status": "error",
@@ -2533,7 +2523,7 @@
     "https://www.pensionspolicyinstitute.org.uk/research-library/research-reports/2026/the-evolving-pensions-administration-market-opportunities-and-risks/?utm_medium=email&utm_campaign=PPI%20Knowledge%20Sharing%20Seminar%20-%20Extra%20dates%20added%20June%202025&utm_content=PPI%20Knowledge%20Sharing%20Seminar%20-%20Extra%20dates%20added%20June%202025+CID_ffa746e28bc0ae441877b4f7248a34c8&utm_source=Email%20marketing%20software&utm_term=If%20you%20would%20like%20to%20attend%20please%20click%20here%20to%20book%20your%20places"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Runnymede Trust": {
    "status": "ok",
@@ -2542,7 +2532,7 @@
     "https://www.runnymedetrust.org/about/careers"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "British Future": {
    "status": "ok",
@@ -2551,7 +2541,7 @@
     "https://www.britishfuture.org/about-us/jobs/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Centre for London": {
    "status": "ok",
@@ -2560,7 +2550,7 @@
     "https://centreforlondon.org"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Centre for Mental Health": {
    "status": "ok",
@@ -2569,7 +2559,7 @@
     "https://www.centreformentalhealth.org.uk/about-us/jobs/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Sutton Trust": {
    "status": "ok",
@@ -2578,31 +2568,31 @@
     "https://www.suttontrust.com"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "The King's Fund": {
    "status": "error",
    "detail": "https://www.kingsfund.org.uk: 403 Client Error: Forbidden for url: https://www.kingsfund.org.uk/",
    "careers_urls": [],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "The Health Foundation": {
    "status": "error",
    "detail": "https://www.health.org.uk: 403 Client Error: Forbidden for url: https://www.health.org.uk/",
    "careers_urls": [],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Women's Budget Group": {
    "status": "ok",
-   "detail": "",
+   "detail": "read https://www.wbg.org.uk/careers/ with a headless browser; read https://www.wbg.org.uk/wbg-networks/ with a headless browser",
    "careers_urls": [
     "https://www.wbg.org.uk/careers/",
     "https://www.wbg.org.uk/wbg-networks/"
    ],
-   "found": 1,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "found": 0,
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Nuffield Trust": {
    "status": "ok",
@@ -2611,7 +2601,7 @@
     "https://www.nuffieldtrust.org.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Ada Lovelace Institute": {
    "status": "ok",
@@ -2620,7 +2610,7 @@
     "https://www.adalovelaceinstitute.org"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "E3G": {
    "status": "ok",
@@ -2629,7 +2619,7 @@
     "https://www.e3g.org/about/careers/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Common Wealth": {
    "status": "ok",
@@ -2638,14 +2628,14 @@
     "https://www.common-wealth.org"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Tony Blair Institute": {
    "status": "error",
    "detail": "https://institute.global: 429 Client Error: Too Many Requests for url: https://institute.global/",
    "careers_urls": [],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "New Economics Foundation": {
    "status": "ok",
@@ -2654,7 +2644,7 @@
     "https://neweconomics.org/about/our-missions/fast-and-fair-transition"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Green Alliance": {
    "status": "ok",
@@ -2663,26 +2653,26 @@
     "https://green-alliance.org.uk/work-with-us/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Reform": {
    "status": "ok",
-   "detail": "",
+   "detail": "read https://reform.uk with a headless browser",
    "careers_urls": [
     "https://reform.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Bright Blue": {
    "status": "ok",
-   "detail": "",
+   "detail": "read https://www.brightblue.org.uk/who-are-bright-blue/jobs-3/ with a headless browser; read https://www.brightblue.org.uk/support/ with a headless browser",
    "careers_urls": [
     "https://www.brightblue.org.uk/who-are-bright-blue/jobs-3/",
     "https://www.brightblue.org.uk/support/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Compass": {
    "status": "ok",
@@ -2691,7 +2681,7 @@
     "https://www.compassonline.org.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Centre for Social Justice": {
    "status": "ok",
@@ -2700,17 +2690,17 @@
     "https://www.centreforsocialjustice.org.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Policy Exchange": {
    "status": "ok",
-   "detail": "",
+   "detail": "read https://policyexchange.org.uk/careers/ with a headless browser; read https://policyexchange.org.uk/careers with a headless browser",
    "careers_urls": [
     "https://policyexchange.org.uk/careers/",
     "https://policyexchange.org.uk/careers"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Theos": {
    "status": "ok",
@@ -2719,7 +2709,7 @@
     "https://www.theosthinktank.co.uk/about/theos-internship"
    ],
    "found": 2,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Localis": {
    "status": "ok",
@@ -2728,7 +2718,7 @@
     "https://www.localis.org.uk/events/new-values-revisited-embedding-procurement-reform-good-local-growth-jobs-webinar/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Hansard Society": {
    "status": "ok",
@@ -2738,7 +2728,7 @@
     "https://www.hansardsociety.org.uk/membership"
    ],
    "found": 1,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Centre for European Reform": {
    "status": "ok",
@@ -2747,7 +2737,7 @@
     "https://www.cer.eu"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Foreign Policy Centre": {
    "status": "ok",
@@ -2756,7 +2746,7 @@
     "https://fpc.org.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "RUSI": {
    "status": "ok",
@@ -2765,7 +2755,7 @@
     "https://www.rusi.org"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "European Council on Foreign Relations": {
    "status": "ok",
@@ -2774,7 +2764,7 @@
     "https://ecfr.eu"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "IISS": {
    "status": "error",
@@ -2783,7 +2773,7 @@
     "https://www.iiss.org"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "ODI Global": {
    "status": "ok",
@@ -2792,7 +2782,7 @@
     "https://odi.org/en/careers/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "British Foreign Policy Group": {
    "status": "ok",
@@ -2801,7 +2791,7 @@
     "https://bfpg.co.uk/careers"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Nesta": {
    "status": "ok",
@@ -2810,16 +2800,16 @@
     "https://www.nesta.org.uk/jobs/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Behavioural Insights Team": {
-   "status": "ok",
-   "detail": "read https://www.bi.team/about-us/careers/#listing with a headless browser",
+   "status": "error",
+   "detail": "https://www.bi.team/about-us/careers/#listing (browser): Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://www.bi.team/about-us/careers/#listing\", waiting until \"networkidle\"\n",
    "careers_urls": [
     "https://www.bi.team/about-us/careers/#listing"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Education Endowment Foundation": {
    "status": "ok",
@@ -2828,7 +2818,7 @@
     "https://educationendowmentfoundation.org.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "UK in a Changing Europe": {
    "status": "ok",
@@ -2837,7 +2827,7 @@
     "https://ukandeu.ac.uk/how-long-does-it-take-to-join-the-european-union-why-the-uk-in-2026-isnt-finland-in-1992/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Policy in Practice": {
    "status": "ok",
@@ -2846,7 +2836,7 @@
     "https://policyinpractice.co.uk/careers/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Lexington Communications": {
    "status": "ok",
@@ -2855,21 +2845,21 @@
     "https://www.lexcomm.co.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "H/Advisors Cicero": {
    "status": "error",
-   "detail": "https://cicero-group.com: HTTPSConnectionPool(host='cicero-group.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='cicero-group.com', port=443) at 0x73d9bc971070>, 'Connection to cicero-group.com timed out. (connect timeout=20)'))",
+   "detail": "https://cicero-group.com: HTTPSConnectionPool(host='cicero-group.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='cicero-group.com', port=443) at 0x737a94d253d0>, 'Connection to cicero-group.com timed out. (connect timeout=20)'))",
    "careers_urls": [],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "MHP Group": {
    "status": "error",
    "detail": "https://www.mhpgroup.com: 403 Client Error: Forbidden for url: https://www.mhpgroup.com/",
    "careers_urls": [],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "BECG (incl. Cavendish)": {
    "status": "ok",
@@ -2878,7 +2868,7 @@
     "https://becg.com"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Global Counsel": {
    "status": "ok",
@@ -2887,7 +2877,7 @@
     "https://www.global-counsel.com"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Portland": {
    "status": "ok",
@@ -2896,7 +2886,7 @@
     "https://portland-communications.com/careers/"
    ],
    "found": 1,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "WPI Strategy": {
    "status": "ok",
@@ -2906,7 +2896,7 @@
     "https://wpi-strategy.com/datacentresreport"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Headland": {
    "status": "ok",
@@ -2915,7 +2905,7 @@
     "https://www.headlandconsultancy.com/careers/"
    ],
    "found": 1,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Brunswick": {
    "status": "ok",
@@ -2924,7 +2914,7 @@
     "https://www.brunswickgroup.com"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Edelman": {
    "status": "error",
@@ -2933,14 +2923,14 @@
     "https://djeholdings.wd5.myworkdayjobs.com/edelman-careers-E200?locations=9aea86bf32a11001b495e8e5680f0000"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Westbourne Communications": {
    "status": "error",
    "detail": "https://www.westbournecomms.com: HTTPSConnectionPool(host='www.westbournecomms.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.westbournecomms.com', port=443): Failed to resolve 'www.westbournecomms.com' ([Errno -2] Name or service not known)\"))",
    "careers_urls": [],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "FGS Global": {
    "status": "ok",
@@ -2949,7 +2939,7 @@
     "https://fgsglobal.com/join-us"
    ],
    "found": 1,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Interel": {
    "status": "ok",
@@ -2958,7 +2948,7 @@
     "https://interelgroup.com"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Burson": {
    "status": "ok",
@@ -2967,7 +2957,7 @@
     "https://www.bursonglobal.com/careers"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Grayling": {
    "status": "ok",
@@ -2976,7 +2966,7 @@
     "https://grayling.com/join-us/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Newington": {
    "status": "ok",
@@ -2985,7 +2975,7 @@
     "https://www.newington.co.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Pagefield": {
    "status": "ok",
@@ -2994,7 +2984,7 @@
     "https://www.pagefield.co.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Arden Strategies": {
    "status": "ok",
@@ -3003,7 +2993,7 @@
     "https://www.ardenstrategies.com"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Teneo": {
    "status": "ok",
@@ -3013,7 +3003,7 @@
     "https://www.teneo.com/careers/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Stonehaven": {
    "status": "ok",
@@ -3022,7 +3012,7 @@
     "https://www.stonehaven.io"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Rud Pedersen": {
    "status": "ok",
@@ -3031,7 +3021,7 @@
     "https://rudpedersen.co.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Dods Political Intelligence": {
    "status": "ok",
@@ -3040,7 +3030,7 @@
     "https://www.dodsgroup.com"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "iNHouse Communications": {
    "status": "error",
@@ -3051,7 +3041,7 @@
     "https://careers.inhouse.london/jobs"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Thinks Insight & Strategy": {
    "status": "ok",
@@ -3061,7 +3051,7 @@
     "https://thinksinsight.com/reports/extension-of-right-to-vote-and-change-to-qualification-for-membership-of-the-senedd"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Principle Consulting": {
    "status": "ok",
@@ -3070,7 +3060,7 @@
     "https://principleconsulting.org.uk/internships-policy-publicaffairs/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "JL Partners": {
    "status": "ok",
@@ -3079,7 +3069,7 @@
     "https://www.jlpartners.com/careers"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Opinium": {
    "status": "ok",
@@ -3088,7 +3078,7 @@
     "https://www.opinium.com/careers/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "NatCen": {
    "status": "ok",
@@ -3098,7 +3088,7 @@
     "https://natcen.ac.uk/work-for-us"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "YouGov": {
    "status": "ok",
@@ -3107,7 +3097,7 @@
     "https://jobs.yougov.com/"
    ],
    "found": 1,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Verian": {
    "status": "ok",
@@ -3118,7 +3108,7 @@
     "https://www.veriangroup.com/policy-areas/growth-opportunity"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Survation": {
    "status": "ok",
@@ -3129,7 +3119,7 @@
     "http://survation.com/equal-opportunities-policy/"
    ],
    "found": 1,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Shelter": {
    "status": "ok",
@@ -3138,7 +3128,7 @@
     "https://england.shelter.org.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Weber Shandwick": {
    "status": "ok",
@@ -3148,7 +3138,7 @@
     "https://webershandwick.co.uk/join-us/"
    ],
    "found": 1,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Centre for Homelessness Impact": {
    "status": "ok",
@@ -3157,7 +3147,7 @@
     "https://www.homelessnessimpact.org/careers"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Generation Rent": {
    "status": "error",
@@ -3166,7 +3156,7 @@
     "https://www.generationrent.org/generation-rent-jobs/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Homeless Link": {
    "status": "ok",
@@ -3175,7 +3165,7 @@
     "https://jobs.homeless.org.uk/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Child Poverty Action Group": {
    "status": "error",
@@ -3184,7 +3174,7 @@
     "https://cpag.org.uk/jobs/current-vacancies"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "IFF Research": {
    "status": "ok",
@@ -3195,7 +3185,7 @@
     "https://www.iffresearch.com/blogs/research-internship-experience/"
    ],
    "found": 1,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Crisis": {
    "status": "ok",
@@ -3206,7 +3196,7 @@
     "https://www.crisis.org.uk/get-involved/volunteer/volunteer-at-christmas/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Citizens Advice": {
    "status": "ok",
@@ -3215,7 +3205,7 @@
     "https://www.citizensadvice.org.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Chartered Institute of Housing": {
    "status": "ok",
@@ -3225,7 +3215,7 @@
     "https://www.cih.org/about-us/careers/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Trussell": {
    "status": "ok",
@@ -3234,7 +3224,7 @@
     "https://www.trussell.org.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Big Issue": {
    "status": "ok",
@@ -3245,7 +3235,7 @@
     "https://www.bigissue.com/news/employment/work-jobs-autistic-people-personality-tests/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Turn2us": {
    "status": "ok",
@@ -3254,23 +3244,23 @@
     "https://www.turn2us.org.uk/policy-campaigns-and-research/campaigns/stop-the-stigma"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Mind": {
    "status": "error",
    "detail": "https://www.mind.org.uk: 403 Client Error: Forbidden for url: https://www.mind.org.uk/",
    "careers_urls": [],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Z2K": {
    "status": "ok",
-   "detail": "",
+   "detail": "read https://z2k.org/vacancies/ with a headless browser",
    "careers_urls": [
     "https://z2k.org/vacancies/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Barnardo's": {
    "status": "ok",
@@ -3281,7 +3271,7 @@
     "https://www.barnardos.org.uk/work-with-us/commission-us"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Save the Children UK": {
    "status": "ok",
@@ -3291,7 +3281,7 @@
     "https://www.savethechildren.org.uk/index.php/about-us/who-we-work-with/corporate-partners/work-with-us"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Age UK": {
    "status": "ok",
@@ -3302,7 +3292,7 @@
     "https://www.ageuk.org.uk/about-us/jobs/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Oxfam GB": {
    "status": "ok",
@@ -3311,7 +3301,7 @@
     "https://www.oxfam.org.uk/get-involved/christmas/oxfam-fairer-world/?crm_event_code=26IGVXWS04"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Unlock Democracy": {
    "status": "ok",
@@ -3320,7 +3310,7 @@
     "https://unlockdemocracy.org"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Cancer Research UK": {
    "status": "error",
@@ -3331,7 +3321,7 @@
     "https://web.email.cancerresearchuk.org/webApp/crukLG1DiscoverCRUKEmailSeries_v2"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Liberty": {
    "status": "ok",
@@ -3342,7 +3332,7 @@
     "https://action.libertyhumanrights.org.uk/page/194304/petition/1"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Amnesty International UK": {
    "status": "ok",
@@ -3353,7 +3343,7 @@
     "https://www.amnesty.org.uk/amnesty-community/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "National Housing Federation": {
    "status": "ok",
@@ -3364,7 +3354,7 @@
     "https://www.housing.org.uk/news-and-blogs/news/coronavirus-job-retention-scheme--important-changes-from-july-2020/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Full Fact": {
    "status": "ok",
@@ -3373,7 +3363,7 @@
     "https://fullfact.org/about/careers/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Electoral Reform Society": {
    "status": "ok",
@@ -3384,7 +3374,7 @@
     "https://electoral-reform.org.uk/join-the-movement/membership/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Which?": {
    "status": "ok",
@@ -3393,7 +3383,7 @@
     "https://www.which.co.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "NCVO": {
    "status": "ok",
@@ -3402,7 +3392,7 @@
     "https://www.ncvo.org.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "UNISON": {
    "status": "ok",
@@ -3413,7 +3403,7 @@
     "https://my.unison.org.uk/join/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Citizens UK": {
    "status": "ok",
@@ -3424,7 +3414,7 @@
     "https://www.citizensuk.org/join/join-us-as-a-charity/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Federation of Small Businesses": {
    "status": "error",
@@ -3433,7 +3423,7 @@
     "https://www.fsb.org.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "TUC": {
    "status": "ok",
@@ -3444,7 +3434,7 @@
     "https://www.tuc.org.uk/news/tuc-milburn-review-generational-opportunity-invest-young-people"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "London First": {
    "status": "ok",
@@ -3454,7 +3444,7 @@
     "https://www.londonfirst.co.uk/index%2Ephp/events/sponsorship-opportunities"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "British Chambers of Commerce": {
    "status": "ok",
@@ -3465,7 +3455,7 @@
     "https://www.britishchambers.org.uk/join-the-chamber-network/member-benefits/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "CBI": {
    "status": "ok",
@@ -3476,7 +3466,7 @@
     "https://www.cbi.org.uk/join-the-cbi/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Home Builders Federation": {
    "status": "ok",
@@ -3487,7 +3477,7 @@
     "https://www.hbf.co.uk/about/membership/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "British Property Federation": {
    "status": "ok",
@@ -3496,14 +3486,14 @@
     "https://bpf.org.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Ofcom": {
    "status": "error",
    "detail": "https://www.ofcom.org.uk: 403 Client Error: Forbidden for url: https://www.ofcom.org.uk/",
    "careers_urls": [],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "techUK": {
    "status": "ok",
@@ -3512,7 +3502,7 @@
     "https://www.techuk.org/insights/news/shaping-the-future-of-local-government-tech-workshop-at-the-digital-regions-summit"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Competition and Markets Authority": {
    "status": "ok",
@@ -3521,7 +3511,7 @@
     "https://www.gov.uk/browse/working"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Regulator of Social Housing": {
    "status": "ok",
@@ -3530,7 +3520,7 @@
     "https://www.gov.uk/browse/working"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "London Councils": {
    "status": "ok",
@@ -3539,7 +3529,7 @@
     "https://www.londoncouncils.gov.uk"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Homes England": {
    "status": "ok",
@@ -3548,7 +3538,7 @@
     "https://www.gov.uk/browse/working"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Ofgem": {
    "status": "ok",
@@ -3559,7 +3549,7 @@
     "https://www.ofgem.gov.uk/about-us/how-we-work/procurement-and-contract-opportunities"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Local Government Association": {
    "status": "ok",
@@ -3568,7 +3558,7 @@
     "https://www.careers.local.gov.uk/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Office for National Statistics": {
    "status": "ok",
@@ -3577,7 +3567,7 @@
     "https://analysisfunction.civilservice.gov.uk/careers/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Islington Council": {
    "status": "ok",
@@ -3587,14 +3577,14 @@
     "https://www.islington.gov.uk/jobs-and-careers/vacancies"
    ],
    "found": 1,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "United Nations Secretariat": {
    "status": "error",
    "detail": "https://careers.un.org: 403 Client Error: Forbidden for url: https://careers.un.org/",
    "careers_urls": [],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "OECD": {
    "status": "ok",
@@ -3603,7 +3593,7 @@
     "smartrecruiters:OECD"
    ],
    "found": 1,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Liberal Democrats": {
    "status": "ok",
@@ -3612,7 +3602,7 @@
     "https://www.libdems.org.uk/work-for-us"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Commonwealth Secretariat": {
    "status": "ok",
@@ -3621,7 +3611,7 @@
     "https://thecommonwealth.org/work-with-us"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Green Party": {
    "status": "ok",
@@ -3631,7 +3621,7 @@
     "https://join.greenparty.org.uk/?utm_source=green-party&utm_medium=jasksep25&source=green-party-btn"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "European Parliament": {
    "status": "ok",
@@ -3640,7 +3630,7 @@
     "https://ep-stages.gestmax.eu"
    ],
    "found": 2,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Council of Europe": {
    "status": "ok",
@@ -3649,14 +3639,14 @@
     "https://talents.coe.int/en_GB/careersmarketplace/SearchJobs/internship?listFilterMode=1&jobRecordsPerPage=6&"
    ],
    "found": 2,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "NATO": {
    "status": "error",
    "detail": "https://www.nato.int/cps/en/natolive/75725.htm: 404 Client Error: Not Found for url: https://www.nato.int/cps/en/natolive/75725.htm",
    "careers_urls": [],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Labour Party": {
    "status": "ok",
@@ -3667,7 +3657,7 @@
     "https://labour.org.uk/change/break-down-barriers-to-opportunity/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "European Commission": {
    "status": "ok",
@@ -3676,7 +3666,7 @@
     "https://traineeships.ec.europa.eu"
    ],
    "found": 14,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "Resolution Foundation": {
    "status": "ok",
@@ -3685,7 +3675,7 @@
     "https://www.resolutionfoundation.org/about-us/opportunities/"
    ],
    "found": 1,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "CharityJob: internships in London": {
    "status": "ok",
@@ -3694,7 +3684,7 @@
     "https://www.charityjob.co.uk/internship-jobs-in-london"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "On Think Tanks": {
    "status": "ok",
@@ -3703,7 +3693,7 @@
     "https://onthinktanks.org/community-and-events/"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "CharityJob: policy internships in London": {
    "status": "ok",
@@ -3713,7 +3703,7 @@
     "https://www.charityjob.co.uk/policy-and-advocacy-intern-jobs-in-london"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "W4MP": {
    "status": "ok",
@@ -3724,7 +3714,7 @@
     "https://w4mp.org/jobs-listings-events/"
    ],
    "found": 3,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   },
   "PubAffairs Networking": {
    "status": "ok",
@@ -3735,10 +3725,16 @@
     "https://www.publicaffairsnetworking.com/public-affairs-job-archive.php"
    ],
    "found": 0,
-   "checked": "2026-11-26T17:28:09+00:00"
+   "checked": "2026-11-27T00:25:08+00:00"
   }
  },
  "runs": [
+  {
+   "at": "2026-11-27T00:25:08+00:00",
+   "new": 0,
+   "changes": 0,
+   "errors": 28
+  },
   {
    "at": "2026-11-26T17:28:09+00:00",
    "new": 0,
@@ -4089,12 +4085,6 @@
   },
   {
    "at": "2026-10-27T20:31:28+00:00",
-   "new": 0,
-   "changes": 0,
-   "errors": 20
-  },
-  {
-   "at": "2026-10-27T13:05:46+00:00",
    "new": 0,
    "changes": 0,
    "errors": 20
